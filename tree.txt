@@ -1,0 +1,34 @@
+
+├── backend
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── public
+│   │   └── favicon.ico
+│   ├── README.md
+│   ├── src
+│   │   ├── api.js
+│   │   ├── App.vue
+│   │   ├── assets
+│   │   │   ├── base.css
+│   │   │   ├── logo.svg
+│   │   │   └── main.css
+│   │   ├── components
+│   │   │   ├── FolderList.vue
+│   │   │   ├── icons
+│   │   │   │   ├── IconCommunity.vue
+│   │   │   │   ├── IconDocumentation.vue
+│   │   │   │   ├── IconEcosystem.vue
+│   │   │   │   ├── IconSupport.vue
+│   │   │   │   └── IconTooling.vue
+│   │   │   ├── SubFolderPanel.vue
+│   │   │   ├── SubFolder.vue
+│   │   │   └── __tests__
+│   │   ├── main.js
+│   │   └── stores
+│   │       └── folderStore.js
+│   ├── tree.txt
+│   ├── vite.config.js
+│   └── vitest.config.js
+└── tree.txt
+
+2875 directories, 21533 files
