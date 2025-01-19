@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.50",
+  "scripts": {
+    "dev": "bun run --watch src/index.ts",
+    "start": "bun run index.ts",
+    "migrate": "prisma migrate dev",
+    "seed": "bun run prisma/seed.ts",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.2.0",
+    "@prisma/client": "^6.2.1",
+    "elysia": "latest",
+    "test": "^3.3.0"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "prisma": "^6.2.1"
+  },
+  "module": "src/index.js"
+}
